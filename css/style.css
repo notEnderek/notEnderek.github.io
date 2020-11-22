@@ -1,0 +1,162 @@
+body{
+    position: relative;
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box; 
+    background-color: aqua;
+    margin-top: 10px;
+}
+
+.header{
+    height: 90px;
+}
+
+.logo {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.container{
+    max-width: 150px;
+    float:left;
+}
+.photo{
+    float:right;
+    margin-right: 20%;
+    margin-top:10%;
+}
+
+nav {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: auto;
+    text-align: center;
+    line-height: 40px;
+}
+
+main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.1);
+    border: solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px 0;
+}
+
+text {
+    text-align: center;
+}
+
+footer {
+    height: auto;
+    background-color: rgba(0,0,0,0.2);
+    padding: 5%;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.social-medias {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    box-shadow: 2px 2px 4px #000;
+}
+
+.icon {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.bg-dribble {
+    width: 24px; height: 24px;
+    background: url("../images/css_sprites.png") -10px -10px;
+    transition-duration: 0.3s;
+}
+
+.bg-facebook {
+    width: 24px; height: 24px;
+    background: url("../images/css_sprites.png") -54px -10px;
+    transition-duration: 0.3s;
+}
+
+.bg-twitter {
+    width: 24px; height: 24px;
+    background: url("../images/css_sprites.png") -98px -10px;
+    transition-duration: 0.3s;
+}
+
+.bg-dribble:hover {
+    width: 24px; height: 24px;
+    background: url("../images/css_sprites_h.png") -10px -10px;
+    transform: scale(1.1,1.1);
+}
+
+.bg-facebook:hover {
+    width: 24px; height: 24px;
+    background: url("../images/css_sprites_h.png") -54px -10px;
+    transform: scale(1.1,1.1);
+}
+
+.bg-twitter:hover {
+    width: 24px; height: 24px;
+    background: url("../images/css_sprites_h.png") -98px -10px;
+    transform: scale(1.1,1.1);
+}
+
+.medias {
+    margin-right: 5px;
+}
+
+@media (min-width: 0px) {
+    .obraz{content: url("../images/im1.jpg"); max-width: 100%;}
+    .contact{height: 100px;}
+  }
+  @media (min-width: 400px) {
+    .obraz{content: url("../images/im2.jpg");}
+  }
+  
+  /* Larger than phablet (also point when grid becomes active) */
+  @media (min-width: 550px) {
+    .obraz{content: url("../images/im3.jpg"); max-width: 90%;}
+    .contact li {
+      margin-top: 10px;
+      float: left;
+      margin-right: 15px;
+  }
+
+  .contact{height: 4rem;}
+  }
+  
+  /* Larger than tablet */
+  @media (min-width: 750px) {
+    .obraz{content: url("../images/im4.jpg");}
+  }
+  
+  /* Larger than desktop */
+  @media (min-width: 1000px) {
+    .obraz{content: url("../images/im5.jpg");}
+  }
+  
+  /* Larger than Desktop HD */
+  @media (min-width: 1200px) {
+    .obraz{content: url("../images/im6.jpg");}
+  }
+  
+
+
+
+
+
+
